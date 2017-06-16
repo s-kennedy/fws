@@ -1,0 +1,52 @@
+<section id="contact" class="overlay">
+  <div class="overlay"></div>
+  <div class="content">
+    <h1 class="headline title-dark">{{ site.data.content.contact.contactUs }}</h1>
+    <div class="form">
+      <form id="contact-form">
+        <div class="form-field">
+          <label for="products">{{ site.data.content.contact.interestedIn }}</label>
+          <div class="products">
+            <div>
+              <label for="hiking">{{ site.data.content.contact.hiking }}</label>
+              <input type="checkbox" name="hiking">
+            </div>
+            <div>
+              <label for="camping">{{ site.data.content.contact.camping }}</label>
+              <input type="checkbox" name="camping">
+            </div>
+            <div>
+              <label for="camping">{{ site.data.content.contact.custom }}</label>
+              <input type="checkbox" name="custom">
+            </div>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="name">{{ site.data.content.contact.name }}</label>
+          <input type="text" name="name">
+        </div>
+        <div class="form-field">
+          <label for="email">{{ site.data.content.contact.email }}</label>
+          <input type="email" name="email">
+        </div>
+        <div class="trip-dates">
+          <div class="form-field" id="departure-date">
+            <label for="departure-date">{{ site.data.content.contact.departure }}</label>
+            <input type="text" name="departure-date" class="date-picker">
+          </div>
+          <div class="form-field" id="return-date">
+            <label for="return-date">{{ site.data.content.contact.return }}</label>
+            <input type="text" name="return-date" class="date-picker">
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="message">{{ site.data.content.contact.message }}</label>
+          <textarea name="message"></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="{{ site.data.content.contact.submit }}" class="button purple">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

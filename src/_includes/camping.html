@@ -1,0 +1,28 @@
+<section id="camping">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="text">
+      <h1 class="headline">{{ site.data.content.camping.headline}}</h1>
+      <div class="product-highlight">
+        <h3>{{ site.data.content.camping.product}} - {{ site.data.content.camping.price}}</h3>
+      </div>
+      <div class="product-description">
+        <p class="description">{{ site.data.content.camping.description }}</p>
+        <h4 class="offer">{{ site.data.content.camping.offer.whatWeOffer }}</h4>
+        <ul class="included">
+          {% for item in site.data.content.camping.offer.items %}
+          <li>{{ item.label}}</li>
+          {% endfor %}
+        </ul>
+        <p class="customize">{{site.data.content.camping.customize}}</p>
+        <div class="call-to-action">
+          <div class="actions">
+          {% for action in site.data.content.camping.actions %}
+            <a data-scroll href="{{ action.url }}" class="button yellow">{{ action.anchor }}</a>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

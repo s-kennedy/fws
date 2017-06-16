@@ -1,0 +1,26 @@
+<section id="pricing">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="columns">
+      <h1 class="headline">{{ site.data.content.pricing.headline}}</h1>
+      <div class="pricing-columns">
+        {% for product in site.data.content.pricing.products %}
+          <div class="pricing {{name}}">
+            <h2>{{ product.price }}</h2>
+            <h4 class="hst">{{ product.hst }}</h4>
+            <h3>{{ product.title }}</h3>
+            <h4>{{ product.offer.included }}</h4>
+            <ul class="included">
+              {% for item in product.offer.items %}
+              <li>{{ item.label }}</li>
+              {% endfor %}
+            </ul>
+            <div class="action">
+              <a data-scroll href="#contact" class="button yellow">{{ site.data.content.pricing.callToAction }}</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

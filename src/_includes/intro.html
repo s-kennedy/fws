@@ -1,0 +1,18 @@
+<section id="intro">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="text">
+      <h1 class="greeting">{{ site.data.content.intro.invitation}}</h1>
+      <p class="conversation">{{ site.data.content.intro.mission}}</p>
+      <p class="conversation">{{ site.data.content.intro.explanation}}</p>
+      <div class="call-to-action">
+        <p class="conversation">{{ site.data.content.intro.hikingOrCamping}}</p>
+        <div class="actions">
+          {% for action in site.data.content.intro.actions %}
+            <a data-scroll href="{{ action.url}}" class="button {{ action.btnColour}}">{{ action.anchor}}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

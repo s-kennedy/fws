@@ -1,0 +1,663 @@
+
+@import 'variables';
+
+@font-face {
+  font-family: 'Shorelines Script Bold';
+  src: url('../fonts/shorelines_script_bold.otf'), format('opentype');
+}
+
+body {
+  font-family: $primary-font;
+  line-height: 1.5;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+section {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  color: #fff;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .text {
+    z-index: 1;
+    width: 80%;
+  }
+
+  .columns {
+    max-width: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+  }
+
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+footer {
+  background: url('../images/barca.jpg') no-repeat center bottom fixed;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  display: inline-block;
+
+  span, i {
+    margin: 0 20px;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    background: linear-gradient(35deg, $dark-yellow, $dark-green, $dark-purple);
+  }
+
+  .content {
+    position: relative;
+    font-size: 0.7em;
+    padding: 16px;
+
+    .social-media {
+      font-size: 1.3em;
+    }
+  }
+}
+
+h1, h2, h3, h2, h5 {
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-family: $title-font;
+  font-size: 3.4em;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+a {
+  color: #fff;
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.headline {
+  text-align: center;
+  z-index: 1;
+}
+
+.title-dark {
+  color: $dark-purple;
+  margin: 0.6em;
+}
+
+.header {
+  position: absolute;
+  z-index: 10;
+  padding-top: 30px;
+  color: white;
+  display: flex;
+  font-size: 0.7em;
+  width: 100%;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+
+    img {
+      height: 50px;
+      margin-right: 16px;
+    }
+
+    .emphasize {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  .languages {
+    padding-right: 20px;
+
+    a {
+      margin: 0 4px;
+      text-decoration: none;
+    }
+
+    span.flag-icon {
+      font-size: 26px;
+    }
+  }
+
+}
+
+section#landing {
+  color: #fff;
+  background: url('../images/barca.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+
+  .overlay {
+    background: linear-gradient(35deg, $dark-yellow, $dark-green, $dark-purple);
+  }
+
+  .content {
+    height: inherit;
+    justify-content: space-around;
+  }
+
+  .ftws {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-size: 1.2em;
+  }
+}
+
+section#intro {
+  min-height: 100vh;
+  background: url('../images/lake.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .overlay {
+    background: $dark-blue;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+section#camping {
+  background: url('../images/camping.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .overlay {
+    background: $dark-purple;
+  }
+
+  .product-highlight {
+    border: 4px solid $dark-yellow;
+    h3 {
+      margin: 0.6em;
+    }
+  }
+
+  .product-description {
+    background: #fff;
+    color: $dark-purple;
+    padding: 4%;
+    margin: 6% 0;
+  }
+
+  a:not(.button) {
+    color: $dark-purple;
+    &:visited {
+      color: $light-purple;
+    }
+  }
+}
+
+section#hiking {
+  background: url('../images/paseo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .overlay {
+    background: $dark-green;
+  }
+
+  .product-highlight {
+    border: 4px solid $dark-yellow;
+    h3 {
+      margin: 0.6em;
+    }
+  }
+
+  .product-description {
+    background: #fff;
+    color: $dark-green;
+    padding: 4%;
+    margin: 6% 0;
+  }
+
+  a:not(.button) {
+    color: $dark-green;
+    &:visited {
+      color: $light-green;
+    }
+  }
+}
+
+section#pricing {
+  background: url('../images/canoa.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .overlay {
+    background: $dark-blue;
+  }
+
+  .text {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .pricing-columns {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pricing {
+    flex-grow: 1;
+    flex-basis: 33%;
+    padding: 20px;
+    min-width: 100px;
+
+    h2, h4.hst {
+      margin: 0;
+      color: $light-yellow;
+      text-align: center;
+    }
+  }
+
+  .action {
+    display: flex;
+    justify-content: center;
+
+    .button {
+      text-align: center;
+    }
+  }
+
+  .pricing.camping, .pricing.hiking {
+    border-right: 1px solid rgba(255,255,255,0.7);
+  }
+}
+
+section#team {
+  display: flex;
+  flex-direction: row;
+
+  .text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .overlay {
+    background: linear-gradient(35deg, $dark-green, $dark-blue);
+  }
+
+  .team-members {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .member {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    .team-picture, .greeting {
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      transition: all 0.5s ease-in-out;
+
+      .greeting {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        h3 {
+          padding: 10px;
+          opacity: 1;
+        }
+      }
+
+      &:hover {
+
+      }
+
+      &#dani {
+        background: url('../images/dani.jpg') no-repeat center center;
+        background-size: cover;
+
+        .greeting {
+          background-color: rgba(61, 49, 117, 0.50);
+        }
+      }
+
+      &#sharon {
+        background: url('../images/sharon.jpg') no-repeat center center;
+        background-size: cover;
+
+        .greeting {
+          background-color: rgba(36, 107, 97, 0.5);
+        }
+      }
+
+      &#bowie {
+        background: url('../images/bowie.jpg') no-repeat center center;
+        background-size: cover;
+
+        .greeting {
+          background-color: rgba(231, 158, 19, 0.5);
+        }
+      }
+    }
+
+    .description {
+      color: #fff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .first-aid {
+    text-align: center;
+  }
+}
+
+section#gallery {
+  flex-direction: column;
+
+  .overlay {
+    background: linear-gradient(185deg, $dark-green, $dark-blue);
+  }
+
+  .polaroid-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      display: block;
+      width: inherit;
+    }
+
+    a {
+      background: white;
+      display: inline;
+      float:right;
+      background-repeat: round;
+      margin: 0 15px 30px;
+      padding: 10px 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+      -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+      box-shadow: 0 4px 6px rgba(0,0,0,.3);
+      -webkit-transition: all .15s linear;
+      -moz-transition: all .15s linear;
+      transition: all .15s linear;
+      z-index:0;
+      position:relative;
+    }
+
+    a:after {
+      color: #333;
+      font-size: 20px;
+      content: attr(title);
+      position: relative;
+      top:15px;
+    }
+
+    a:hover {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      transform: scale(1.2);
+      z-index:10;
+      -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+      -moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+      box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    }
+
+    a:nth-child(2n), a:nth-child(6n) {
+      -webkit-transform: rotate(4deg);
+      -moz-transform: rotate(4deg);
+      transform: rotate(4deg);
+    }
+
+    a:nth-child(3n) {
+      -webkit-transform: rotate(-24deg);
+      -moz-transform: rotate(-24deg);
+      transform: rotate(-24deg);
+    }
+
+    a:nth-child(4n) {
+      -webkit-transform: rotate(14deg);
+      -moz-transform: rotate(14deg);
+      transform: rotate(14deg);
+    }
+
+    a:nth-child(5n) {
+      -webkit-transform: rotate(-18deg);
+      -moz-transform: rotate(-18deg);
+      transform: rotate(-18deg);
+    }
+  }
+}
+
+section#contact {
+  color: #000;
+
+  .overlay {
+    background: linear-gradient(35deg, $light-purple, $light-yellow);
+  }
+
+  .form {
+    width: 80%;
+    min-width: 400px;
+    z-index: 1;
+
+    .products, .trip-dates {
+      display: flex;
+      justify-content: space-between;
+
+      input.date-picker {
+        width: 100%;
+      }
+    }
+
+    .trip-dates {
+      .form-field {
+        flex-basis: 49%;
+      }
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2em;
+      margin: 20px 0;
+
+      label {
+        font-size: 0.8em;
+      }
+
+      input {
+        font-size: 1.2em;
+        border: none;
+        border-bottom: 2px solid #000;
+        background: none;
+        padding: 5px 0;
+        font-family: monospace;
+      }
+
+      input:focus, textarea:focus {
+        outline: none;
+      }
+
+      textarea {
+        font-size: 1.2em;
+        border: 2px solid #000;
+        background: none;
+        padding: 5px;
+        font-family: monospace;
+        margin: 5px 0;
+      }
+    }
+
+    .submit {
+      display: flex;
+      justify-content: flex-end;
+
+      input[type="submit"] {
+        border: none;
+        cursor: pointer;
+        font-size: 1.2em;
+        font-family: $primary-font;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.2em;
+
+  a {
+    color: #fff !important;
+    &:visited {
+      color: #fff !important;
+    }
+  }
+
+  &.purple {
+    background: $dark-purple;
+    &:hover {
+      background: $light-purple;
+    }
+  }
+
+  &.green {
+    background: $dark-green;
+    &:hover {
+      background: $light-green;
+    }
+  }
+
+  &.blue {
+    background: $dark-blue;
+    &:hover {
+      background: $light-blue;
+    }
+  }
+
+  &.yellow {
+    background: $dark-yellow;
+    &:hover {
+      background: $light-yellow;
+    }
+  }
+}
+
+@media screen and (max-device-width: 930px) {
+
+  body {
+    font-size: 32px;
+  }
+
+  section#team {
+    .team-members {
+      display: block;
+    }
+  }
+
+  section#pricing  {
+    .pricing-columns {
+      display: block;
+    }
+
+    .pricing.camping, .pricing.hiking {
+      border-right: none !important;
+      border-bottom: 1px solid rgba(255,255,255,0.7);;
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  section#team {
+    .team-members {
+      display: block;
+    }
+  }
+
+  section#pricing  {
+    .pricing-columns {
+      display: block;
+    }
+
+    .pricing.camping, .pricing.hiking {
+      border-right: none !important;
+      border-bottom: 1px solid rgba(255,255,255,0.7);;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<section id="team">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="columns">
+      <h1 class="headline">{{ site.data.content.team.headline}}</h1>
+      <div class="team-members">
+        {% for member in  site.data.content.team.members %}
+          <div class="member">
+            <div class="team-picture" id={{ member.name }}>
+              <div class="greeting">
+                <h3>{{ member.greeting }}</h3>
+              </div>
+            </div>
+            <div class="description">
+              <p>{{ member.bio }}</p>
+              <p>{{ member.languages }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class='first-aid'>
+        <p>{{ site.data.content.team.firstAid }}</p>
+      </div>
+    </div>
+  </div>
+</section>
