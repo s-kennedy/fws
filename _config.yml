@@ -20,7 +20,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ixkaito
 github_username:  ixkaito
-source: src
 
 languages: ["en", "es"]
 default_lang: "en"
@@ -28,6 +27,7 @@ exclude_from_localization: ["javascript", "images", "css"]
 parallel_localization: true
 
 # Build settings
+source: src
 markdown: kramdown
 sass:
   sass_dir: _sass

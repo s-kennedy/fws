@@ -1,0 +1,42 @@
+{
+  "name": "fws",
+  "version": "1.0.0",
+  "description": "Marketing website for Follow the White Squirrel",
+  "keywords": [
+    "hiking",
+    "camping",
+    "nature",
+    "Ontario",
+    "Follow",
+    "the",
+    "White",
+    "Squirrel",
+    "Algonquin",
+    "Niagara"
+  ],
+  "main": "",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "author": "Sharon Kennedy",
+  "license": "MIT",
+  "homepage": "www.followthewhitesquirrel.ca",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "instafeed.js": "^1.4.1",
+    "masonry-layout": "^4.2.0",
+    "node-sass": "^4.5.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-select": "^1.0.0-rc.5",
+    "react-text-carousel": "^0.1.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1"
+  }
+}
