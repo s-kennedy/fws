@@ -105,17 +105,18 @@ pricing:
       - label: Ask us about our alternative destinations
       - label: Transportation and equipment as needed
       - label: Negotiable pricing
+trips:
+  upcomingEvents: Upcoming Events
+  date: 'Date:'
+  route: 'Route:'
+  registrationLinkAnchor: 'Trip details and tickets'
 contact:
-  contactUs: Book a trip
-  interestedIn: I'm interested in
-  hiking: Day hike in Niagara
-  camping: Backcountry camping in Algonquin
-  custom: Custom adventure
+  contactUs: Contact Us
   name: Name
   email: Email address
   departure: Departure date
   return: Return date
-  message: Tell us more about what you'd like to do
+  message: Tell us more about what you'd like to do.
   submit: Send!
 footer:
   headline: 'Follow the White Squirrel'

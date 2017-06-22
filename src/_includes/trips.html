@@ -1,0 +1,21 @@
+<section id="trips" >
+  <div class="content">
+    <h1 class="headline title-dark">{{ site.data.content.trips.upcomingEvents }}</h1>
+    <div class="content-container">
+      <div class="eventbrite-calendar" style="width:195px; text-align:center;" ><iframe  src="https://www.eventbrite.ca/calendar-widget?eid=35572459183" frameborder="0" height="548" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:195px; text-align:center;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.ca/">Powered by Eventbrite</a></div></div>
+      <div class="events-container">
+        {% for trip in site.data.trips %}
+        <div class="event">
+          <h3>{{ trip.name }}</h3>
+          <p><span class="label">{{ site.data.content.trips.route }}</span>{{ trip.route }}</p>
+          {% if trip.return %}
+          <p><span class="label">{{ site.data.content.trips.date }}</span> {{ trip.departure }} - {{ trip.return }}</p>
+          {% else %}
+          <p><span class="label">{{ site.data.content.trips.date }}</span> {{ trip.departure }}</p>
+          {% endif %}
+          <a class="button yellow" href="{{ trip.eventbrite }}">{{ site.data.content.trips.registrationLinkAnchor }}</a>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
+</section>

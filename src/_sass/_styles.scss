@@ -516,6 +516,46 @@ section#gallery {
   }
 }
 
+section#trips {
+  color: #000;
+
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .eventbrite-calendar {
+      margin-right: 40px
+    }
+
+    .event {
+      border-bottom: 2px solid $light-green;
+      padding-bottom: 40px;
+
+      h3 {
+        color: $dark-green;
+        text-align: left;
+      }
+
+      &:first-of-type {
+        h3 {
+          margin-top: 0;
+        }
+      }
+
+      .label {
+        font-weight: 800;
+        padding-right: 8px;
+      }
+
+      .button {
+        margin: 0;
+      }
+    }
+  }
+
+}
+
 section#contact {
   color: #000;
 
@@ -523,14 +563,16 @@ section#contact {
     background: linear-gradient(35deg, $light-purple, $light-yellow);
   }
 
-  #calendar {
+  .content-container {
     z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
   }
 
   .form {
-    width: 80%;
+    margin: 0 40px;
+    width: 100%;
     min-width: 400px;
-    z-index: 1;
 
     .products, .trip-dates {
       display: flex;
