@@ -107,7 +107,7 @@ team:
       languages: "Bowie habla Dog y Esperanto."
   firstAid: "Sharon y Dani poseen ambos un certificado válido en Ontario de primeros auxilios en la naturaleza salvaje otorgado por la cruz roja."
 trips:
-  upcomingEvents: Eventos Planteados
+  upcomingEvents: Eventos Planeados
   date: 'Fecha:'
   route: 'Ruta:'
   registrationLinkAnchor: 'Más detalles y reservas'
@@ -128,5 +128,5 @@ footer:
   twitter: 'https://twitter.com/FWSquirrel'
   instagram: 'https://www.instagram.com/followthewhitesquirrel/'
 thanks:
-  message: Gracias por contactar con nosotros, te escribimos en breve :)
+  message: Gracias por contactar con nosotros, te escribiremos en breve! :)
   back: Volver a la web
