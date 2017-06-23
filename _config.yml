@@ -18,13 +18,12 @@ email: hola@followthewhitesquirrel.ca
 description: Unforgettable nature tours in Ontario
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ixkaito
-github_username:  ixkaito
 
 languages: ["en", "es"]
 default_lang: "en"
 exclude_from_localization: ["assets"]
 parallel_localization: true
+url: s-kennedy.github.io/fws
 
 # Build settings
 source: src
