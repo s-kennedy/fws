@@ -1,6 +1,6 @@
 <div class="header">
   <div class="logo">
-    <img src="{{ '/assets/images/fws_logo.png' | prepend: site.baseurl }}" alt="logo">
+    <img src="{{ '/assets/images/fws_logo.png' | prepend: site.github.url }}" alt="logo">
     <div class="company-name">
       <div class="emphasize">Follow the White Squirrel</div>
       <div>Nature tours in Ontario</div>
@@ -8,10 +8,10 @@
   </div>
 
   <div class="languages">
-    <a href="#" id='en'>
+    <a href="{{ site.baseurl }}/" id='en'>
       <span class="flag-icon flag-icon-ca"></span>
     </a>
-    <a href="#" id="es">
+    <a href="{{ site.baseurl }}/es" id="es">
       <span class="flag-icon flag-icon-es"></span>
     </a>
   </div>

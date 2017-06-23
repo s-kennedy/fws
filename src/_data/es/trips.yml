@@ -1,0 +1,27 @@
+- name: Canada Day Long Weekend
+  route: Smoke Lake to Big Porcupine
+  departure: June 30, 2017
+  return: July 3, 2017
+  eventbrite: https://www.eventbrite.ca/e/happy-birthday-canada-camping-trip-in-algonquin-park-tickets-35572459183
+- name: Waterfall Hike on the Niagara Escarpment
+  route: Bruce Trail from Felker's Falls to Albion Falls
+  departure: June 24, 2017
+  eventbrite: https://www.eventbrite.ca/e/waterfall-hike-on-the-niagara-escarpment-tickets-35604500018
+- name: Waterfall Hike on the Niagara Escarpment and Wine Tastings
+  route: Bruce Trail from Felker's Falls to Albion Falls
+  departure: July 8, 2017
+  eventbrite: https://www.eventbrite.ca/e/waterfall-hike-on-the-niagara-escarpment-and-wine-tastings-tickets-35605256280
+- name: Waterfall Hike and Niagara Falls
+  route: Christie Lake to Webster's Falls and Tew's Falls
+  departure: July 10, 2017
+  eventbrite: https://www.eventbrite.ca/e/waterfall-hike-and-niagara-falls-tickets-35602810966
+- name: Smoke Lake to Parkside Bay
+  route: Smoke Lake to Parkside Bay
+  departure: July 27, 2017
+  return: July 30, 2017
+  eventbrite: https://www.facebook.com/events/169865863552273
+- name: Simcoe Day Long Weekend
+  route: Canoe Lake to Tom Thompson
+  departure: August 4, 2017
+  return: August 7, 2017
+  eventbrite: https://www.facebook.com/events/464050043931885/

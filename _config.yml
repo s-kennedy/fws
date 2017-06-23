@@ -23,7 +23,7 @@ github_username:  ixkaito
 
 languages: ["en", "es"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css"]
+exclude_from_localization: ["assets"]
 parallel_localization: true
 
 # Build settings

@@ -158,7 +158,23 @@ a {
     }
 
     span.flag-icon {
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      position: relative;
+      display: inline-block;
+      width: 1.33333333em;
+      line-height: 1em;
       font-size: 26px;
+      height: 1.2em;
+
+      &.flag-icon-ca {
+        background-image: url(../flags/4x3/ca.svg);
+      }
+
+      &.flag-icon-es {
+        background-image: url(../flags/4x3/es.svg);
+      }
     }
   }
 
@@ -637,6 +653,39 @@ section#contact {
   }
 }
 
+section#thanks {
+  color: #fff;
+  background: url('../images/bowie-thanks.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+
+  .overlay {
+    background: $dark-green;
+  }
+
+  .content {
+    height: inherit;
+    justify-content: space-around;
+    padding: 0;
+
+    .text {
+      text-align: center;
+    }
+  }
+
+  .ftws {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-size: 1.2em;
+  }
+}
+
 .button {
   padding: 10px 20px;
   border-radius: 2px;
@@ -650,6 +699,11 @@ section#contact {
     &:visited {
       color: #fff !important;
     }
+  }
+
+  i {
+    margin: 0 6px;
+    font-size: 0.8em;
   }
 
   &.purple {
