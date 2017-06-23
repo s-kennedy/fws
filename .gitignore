@@ -20,7 +20,6 @@ wp-config.php
 /public/uploads
 
 # Jekyll
-_site
 .jekyll-metadata
 
 # Node.js

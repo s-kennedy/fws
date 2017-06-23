@@ -36,6 +36,7 @@ sass:
 gems:
   - jekyll-feed
   - jekyll-polyglot
+  - octopress-autoprefixer
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Shorelines Script Bold';
-  src: url('../fonts/shorelines_script_bold.otf'), format('opentype');
+  src: url($baseurl + '/fonts/shorelines_script_bold.otf'), format('opentype');
 }
 
 body {
@@ -57,7 +57,7 @@ section {
 }
 
 footer {
-  background: url('../images/barca.jpg') no-repeat center bottom fixed;
+  background: url($baseurl + '/assets/images/barca.jpg') no-repeat center bottom fixed;
   background-size: cover;
   color: #ffffff;
   text-align: center;
@@ -169,11 +169,11 @@ a {
       height: 1.2em;
 
       &.flag-icon-ca {
-        background-image: url(../flags/4x3/ca.svg);
+        background-image: url($baseurl + '/assets/flags/4x3/ca.svg');
       }
 
       &.flag-icon-es {
-        background-image: url(../flags/4x3/es.svg);
+        background-image: url($baseurl + '/assets/flags/4x3/es.svg');
       }
     }
   }
@@ -182,7 +182,7 @@ a {
 
 section#landing {
   color: #fff;
-  background: url('../images/barca.jpg') no-repeat center center fixed;
+  background: url($baseurl + '/assets/images/barca.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -210,7 +210,7 @@ section#landing {
 
 section#intro {
   min-height: 100vh;
-  background: url('../images/lake.jpg') no-repeat center center fixed;
+  background: url($baseurl + '/assets/images/lake.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,7 +226,7 @@ section#intro {
 }
 
 section#camping {
-  background: url('../images/camping.jpg') no-repeat center center fixed;
+  background: url($baseurl + '/assets/images/camping.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -259,7 +259,7 @@ section#camping {
 }
 
 section#hiking {
-  background: url('../images/paseo.jpg') no-repeat center center fixed;
+  background: url($baseurl + '/assets/images/paseo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -292,7 +292,7 @@ section#hiking {
 }
 
 section#pricing {
-  background: url('../images/canoa.jpg') no-repeat center center fixed;
+  background: url($baseurl + '/assets/images/canoa.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -391,7 +391,7 @@ section#team {
       }
 
       &#dani {
-        background: url('../images/dani.jpg') no-repeat center center;
+        background: url($baseurl + '/assets/images/dani.jpg') no-repeat center center;
         background-size: cover;
 
         .greeting {
@@ -400,7 +400,7 @@ section#team {
       }
 
       &#sharon {
-        background: url('../images/sharon.jpg') no-repeat center center;
+        background: url($baseurl + '/assets/images/sharon.jpg') no-repeat center center;
         background-size: cover;
 
         .greeting {
@@ -409,7 +409,7 @@ section#team {
       }
 
       &#bowie {
-        background: url('../images/bowie.jpg') no-repeat center center;
+        background: url($baseurl + '/assets/images/bowie.jpg') no-repeat center center;
         background-size: cover;
 
         .greeting {
@@ -655,7 +655,7 @@ section#contact {
 
 section#thanks {
   color: #fff;
-  background: url('../images/bowie-thanks.jpg') no-repeat center center fixed;
+  background: url($baseurl + '/assets/images/bowie-thanks.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
