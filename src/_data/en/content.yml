@@ -96,7 +96,7 @@ pricing:
       - label: Visit to three Niagara Wineries or Niagara Falls
   - name: custom
     price: Call us
-    hst: ''
+    hst: '<br>'
     title: Build your own custom trip
     offer:
       included: What's included?

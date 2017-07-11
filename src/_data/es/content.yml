@@ -78,7 +78,7 @@ pricing:
           - label: "Nos adaptamos a tus preferencias y horarios"
     - name: "custom"
       price: "¡Llámanos!"
-      hst: ''
+      hst: '<br>'
       title: "Construye tus propias vacaciones"
       offer:
         included: "¿Que se incluye?"

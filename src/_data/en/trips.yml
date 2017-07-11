@@ -3,7 +3,7 @@
   departure: June 30, 2017
   return: July 3, 2017
   eventbrite: https://www.eventbrite.ca/e/happy-birthday-canada-camping-trip-in-algonquin-park-tickets-35572459183
-- name: Waterfall Hike on the Niagara Escarpment and Wine Tastings
+- name: Waterfall Hike on the Niagara Escarpment and Wine Tastings - SOLD OUT
   route: Bruce Trail from Felker's Falls to Albion Falls
   departure: July 8, 2017
   eventbrite: https://www.eventbrite.ca/e/waterfall-hike-on-the-niagara-escarpment-and-wine-tastings-tickets-35605256280
@@ -11,11 +11,11 @@
   route: Christie Lake to Webster's Falls and Tew's Falls
   departure: July 10, 2017
   eventbrite: https://www.eventbrite.ca/e/waterfall-hike-and-niagara-falls-tickets-35602810966
-- name: Low-cost Camping at Queen Elizabeth II Wildlands
-  route: Ganaraska Trail starting from Devil's Lake
+- name: 3 days - Backcountry Canoe Camping at Algonquin Park!
+  route: Smoke Lake to Parkside Bay
   departure: July 14, 2017
   return: July 16, 2017
-  eventbrite: https://www.eventbrite.ca/e/low-cost-camping-at-queen-elizabeth-ii-wildlands-tickets-35736521899
+  eventbrite: https://www.eventbrite.ca/e/3-days-backcountry-camping-at-algonquin-park-tickets-36002509475
 - name: 4-day Camping Trip in Algonquin
   route: Canoe Lake to Tom Thompson Lake loop
   departure: July 27, 2017
@@ -31,8 +31,3 @@
   departure: August 11, 2017
   return: August 13, 2017
   eventbrite: https://www.eventbrite.ca/e/stargazing-camping-trip-to-torrance-barrens-tickets-35736849880
-- name: Canoe Camping at Queen Elizabeth II Wildlands
-  route: Devil's Lake to Wolf Lake
-  departure: August 25, 2017
-  return: August 28, 2017
-  eventbrite: https://www.eventbrite.ca/e/canoe-camping-at-queen-elizabeth-ii-wildlands-tickets-35737969228
