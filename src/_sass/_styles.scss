@@ -434,7 +434,6 @@ section#team {
 }
 
 section#gallery {
-
   #instafeed {
     height: auto;
     display: flex;
@@ -443,14 +442,30 @@ section#gallery {
 
     .grid-item {
       flex-basis: 25%;
-      flex-grow: 1;
+      height: 320px;
+      overflow: hidden;
+
       img {
-        width: 100%;
+        width: auto;
         height: 100%;
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 930px) {
+    #instafeed {
+      .grid-item {
+        flex-basis: 33%;
       }
     }
   }
 
+  @media screen and (max-width: 680px) {
+    #instafeed {
+      display: none;
+    }
+  }
 
   .overlay {
     background: linear-gradient(185deg, $dark-green, $dark-blue);
