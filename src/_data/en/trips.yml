@@ -1,15 +1,5 @@
-- name: Stargazing Camping Trip to Torrance Barrens (3 days)
-  route: Watch the Perseid Meteor Shower from the Torrance Barrens dark sky preserve
-  departure: August 11, 2017
-  return: August 13, 2017
-  eventbrite: https://www.eventbrite.ca/e/stargazing-camping-trip-to-torrance-barrens-tickets-35736849880
-- name: Weekend Canoe Trip to Kawartha Highlands (2 days)
-  route: Long Lake to Cox Lake
-  departure: August 26, 2017
-  return: August 27, 2017
-  eventbrite: https://www.eventbrite.ca/e/weekend-canoe-trip-to-kawartha-highlands-2-days-tickets-36320006116
 - name: Labour Day Weekend Canoe Camping Trip (3 days)
-  route: Cache Lake to Head Lake along the Madawaska River
+  route: Smoke Lake to Big Porcupine
   departure: September 2, 2017
   return: September 4, 2017
   eventbrite: https://www.eventbrite.ca/e/labour-day-weekend-canoe-camping-trip-3-days-tickets-36320457466
