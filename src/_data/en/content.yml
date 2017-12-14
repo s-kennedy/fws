@@ -16,13 +16,13 @@ intro:
       btnColour: purple
 camping:
   headline: We love camping!
-  price: $350/390
+  price: $350-390
   product: Adventure in Algonquin Park
   description: Enjoy one of Canada's classic outdoor experiences, a backcountry camping trip in <a href='http://www.algonquinpark.on.ca/'>Algonquin Park</a>. Algonquin is Ontario's oldest and largest provincial park. We'll plan and guide you through a trip that fits your comfort level and preferences. Our typical excursion is a 3 day trip that includes three days of canoeing and two nights of camping. The regular price is $390. For a 2.5 day weekend trip where we leave Friday evening and return Sunday evening, the prices is reduced to $350. Beginners are welcome!
   offer:
     whatWeOffer: 'What we offer:'
     items:
-    - label: Transportation to and from the park
+    - label: Transportation from downtown Toronto
     - label: Tent, sleeping bags, sleeping pads and other camping equipment
     - label: All meals from lunch on the first day to lunch on the last day
     - label: Canoe rental (2 people in a canoe)
@@ -32,16 +32,15 @@ camping:
     url: '#contact'
 hiking:
   headline: Hiking sounds good!
-  price: $90
-  product: Day trip to Niagara
-  description: You've probably heard of Niagara Falls. But did you know that the <a href='http://www.escarpment.org/home/index.php'>Niagara Escarpment</a> has many other waterfalls that can be accessed on foot? We'll start they day with a 10km hike along the Escarpment on the Bruce Trail with a stop for lunch at one of the beautiful waterfalls near Hamilton. One of our favourites is <a href='http://www.cityofwaterfalls.ca/felkers-falls/'>Felker's Falls</a>. We'll finish off the day with a tour of three different <a href='http://winecountryontario.ca/'>Niagara wineries</a> where you can relax after the hike with a few wine tastings.
+  price: $65
+  product: Snowshoeing through Niagara Vineyards
+  description: We're going to explore the Niagara wine region by foot, taking a scenic trail through six vineyards. The trail is an easy walk, and we'll be using snowshoes to make it even more fun! We'll stop in at as many of the wineries as time allows, giving us lots of opportunities to warm up with some local wines.
   offer:
     whatWeOffer: 'What we offer:'
     items:
-    - label: Day trip including a hike to a waterfall and a winery tour
-    - label: Transportation from your doorstep (anywhere in the GTA)
-    - label: Picnic lunch and snacks for the afternoon
-    - label: Trail guide for the Bruce Trail
+    - label: Guided day trip through Niagara wineries
+    - label: Transportation from downtown Toronto
+    - label: Snowshoes
     - label: Flexible schedule
   customize: We're open to customizing this plan according to your preferences. Let us know what your interests are and we'll see what we can do!
   actions:
@@ -84,16 +83,16 @@ pricing:
       - label: All park and camping fees for three days
       - label: Reduced price ($350) if we leave the evening of the first day
   - name: hiking
-    price: $90
+    price: $65
     hst: '+ HST, per person'
-    title: Day hike in Niagara Region
+    title: Snowshoeing through Niagara Wineries
     offer:
       included: What's included?
       items:
-      - label: Transportation from your doorstep (anywhere in the GTA)
-      - label: Packed lunch and snacks for the afternoon
-      - label: Trail guide for the Bruce Trail
-      - label: Visit to three Niagara Wineries or Niagara Falls
+      - label: Guided day trip to visit Niagara wineries
+      - label: Transportation from downtown Toronto
+      - label: Snowshoes
+      - label: Flexible schedule
   - name: custom
     price: Call us
     hst: '<br>'

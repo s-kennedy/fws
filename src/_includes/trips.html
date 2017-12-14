@@ -13,7 +13,7 @@
           {% else %}
           <p><span class="label">{{ site.data.content.trips.date }}</span> {{ trip.departure }}</p>
           {% endif %}
-          <a class="button yellow" href="{{ trip.eventbrite }}">{{ site.data.content.trips.registrationLinkAnchor }}</a>
+          <a class="button yellow" href="{{ trip.event_link }}">{{ site.data.content.trips.registrationLinkAnchor }}</a>
         </div>
         {% endfor %}
       </div>

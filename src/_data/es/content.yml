@@ -32,16 +32,15 @@ camping:
       url: '#trips'
 hiking:
   headline: "¡Hiking suena bien!"
-  price: "$90 + HST"
-  product: "Excursión de un día a Niagara Escarpment"
-  description: "Probablemente habrás oido sobre Niagara Falls. Pero, ¿Sabías que <a href='http://www.escarpment.org/home/index.php'>Niagara Escarpment</a> tiene muchas otras cascadas que sólo puedes acceder a pie? Empezaremos el día con una excursión de 10 km a lo largo de Escarpment (por ell llamado Bruce Trail o camino de Bruce)  con una parada para comer en una hermosa cascada cerca de Hamilton. Una de nuestras favoritas es <a href='http://www.cityofwaterfalls.ca/felkers-falls/'>Felker's Falls</a>. Acabaremos el día en diferentes  <a href='http://winecountryontario.ca/'>bodegas de la región de Niagara</a> donde podrás relajarte después de la excursió con una cata de vinos."
+  price: "$65 + HST"
+  product: "Excursión por los viñedos en raquetas de nieve"
+  description: "Vamos a explorar la région de Niagara a pie, conocido por su producción de vinos. Iremos por un camino suave, pasando por varios viñedos. Llevaremos raquetas de nieve para facilitar el paseo! Tendremos la oportunidad de parar a los viñedos por el camino para calentarnos y probar los vinos locales."
   offer:
     whatWeOffer: "¿Qué ofrecemos?"
     items:
-      - label: "Excursión de un día a Niagara Escarpment y un tour por las diferentes bodegas"
-      - label: "Transporte de ida y vuelta (dentro de 'Greater Toronto Area')"
-      - label: "Comida y snacks para mantenerte en forma"
-      - label: "Te guiaremos por el llamado 'Bruce Trail'"
+      - label: "Excursión de un día a Niagara Escarpment y tour a las bodegas"
+      - label: "Transporte de ida y vuelta desde el centro de Toronto"
+      - label: "Alquiler de raquetas de nieve"
       - label: "Nos adaptamos a tus preferencias y horarios"
   customize: "Estamos abiertos a que nos propongas viajes personalizados acorde a tus preferencias. ¡Quizá te interese ir a Niagara Falls! Sin problema. ¡Déjanos saber tus intereses y veremos que podemos hacer!"
   actions:
@@ -65,16 +64,15 @@ pricing:
           - label: "Todas las tasas del parque."
           - label: "Precio reducido si salimos la noche del primer día."
     - name: "hiking"
-      price: "$90"
+      price: "$65"
       hst: '+ HST, por persona'
-      title: "Día de excursión a Niagara Escarpment"
+      title: "Excursión por los viñedos en raquetas de nieve"
       offer:
         included: "Que se incluye?"
         items:
           - label: "Excursión de un día a Niagara Escarpment y tour a las bodegas"
-          - label: "Transporte de ida y vuelta (dentro de 'Greater Toronto Area')"
-          - label: "Comida y snacks para manterte en forma"
-          - label: "Te guiaremos por el llamado 'Bruce Trail'"
+          - label: "Transporte de ida y vuelta desde el centro de Toronto"
+          - label: "Alquiler de raquetas de nieve"
           - label: "Nos adaptamos a tus preferencias y horarios"
     - name: "custom"
       price: "¡Llámanos!"

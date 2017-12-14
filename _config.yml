@@ -17,7 +17,6 @@ title: Follow the White Squirrel
 email: hola@followthewhitesquirrel.ca
 description: Unforgettable nature tours in Ontario
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 languages: ["en", "es"]
 default_lang: "en"
@@ -32,7 +31,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-polyglot
   - octopress-autoprefixer
