@@ -9,7 +9,7 @@ const feed = new Instafeed({
     accessToken: '5518351442.9259fc8.e9388e5e1cfa4ad69441a018bf7d122e',
     template: '<div class="grid-item"><a href={{link}}><img src="{{image}}"/></a></div>',
     resolution: 'standard_resolution',
-    limit: 16,
+    limit: 20,
     filter: (img) => {
       return img.type === 'image'
     }
