@@ -1,22 +1,22 @@
-- name: 1 day: Hiking through Niagara Vineyards
+- name: "1 day: Hiking through Niagara Vineyards"
   route: Bruce Trail in Twenty Valley
   departure: April 28, 2018
   event_link: https://www.meetup.com/es-ES/outdoor-adventures-with-captain-bowie/events/249809665/
-- name: Algonquin Park canoe adventure
-  route: 3 days: From Smoke Lake to Parkside Bay
-  departure: August 4, 2018
-  return: Agust 6, 2018
-  event_link: 
-- name: 3 days: Algonquin Park canoe adventure
-  route: From Canoe Lake to Baby Joe Lake
-  departure: August 17, 2018
-  return: August 19, 2018
-  event_link: 
-  name: 1 day: Hiking through Niagara Vineyards
+- name: "1 day: Hiking through Niagara Vineyards"
   route: Bruce Trail in Twenty Valley
   departure: July 21, 2018
   event_link: https://www.meetup.com/es-ES/outdoor-adventures-with-captain-bowie/events/249810087/
-  name: 1 day: Hiking through Niagara Vineyards
+- name: "1 day: Hiking through Niagara Vineyards"
   route: Bruce Trail in Twenty Valley
   departure: July 22, 2018
   event_link: https://www.meetup.com/es-ES/outdoor-adventures-with-captain-bowie/events/249810397/
+- name: Algonquin Park canoe adventure
+  route: "3 days: From Smoke Lake to Parkside Bay"
+  departure: August 4, 2018
+  return: August 6, 2018
+  event_link: '/#contact'
+- name: "3 days: Algonquin Park canoe adventure"
+  route: From Canoe Lake to Baby Joe Lake
+  departure: August 17, 2018
+  return: August 19, 2018
+  event_link: '/#contact'
